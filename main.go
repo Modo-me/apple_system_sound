@@ -1,8 +1,9 @@
 package main
 
 import (
-	"apple_system_sound/system_tools"
 	"time"
+
+	"github.com/Modo-me/apple_system_sound/system_tools"
 )
 
 func main() {
