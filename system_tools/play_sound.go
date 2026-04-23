@@ -1,5 +1,7 @@
 package system_tools
 
+import "time"
+
 /*
 #cgo LDFLAGS: -framework AudioToolbox
 #include <AudioToolbox/AudioServices.h>
@@ -12,4 +14,5 @@ import "C"
 
 func PlaySound() {
 	C.playUserPreferredAlert()
+	time.Sleep(1 * time.Second)
 }
