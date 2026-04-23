@@ -8,5 +8,4 @@ import (
 
 func main() {
 	system_tools.PlaySound()
-	time.Sleep(1 * time.Second)
 }
